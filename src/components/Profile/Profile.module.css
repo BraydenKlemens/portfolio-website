@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spirax&display=swap');
 
-.profileWrapper {
+.wrapper {
     padding: 1rem 15% 1rem;
     display: flex;
     flex-direction:column;
@@ -30,8 +30,11 @@
     border: 1px solid white;
 }
 
-.aboutMeContainer {
+.aboutContainer {
     color: white;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* .background {

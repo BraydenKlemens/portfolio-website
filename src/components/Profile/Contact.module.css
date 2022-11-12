@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+#linkedin {
+    color: rgb(93, 147, 235);
+}
+
+#linkedin:hover {
+    color: rgb(138, 176, 236);
+}
+
+#github {
+    color: rgb(160, 94, 222);
+}
+
+#github:hover {
+    color: rgb(186, 143, 226);
+}
+
+#mail {
+    color: white;
+}
+
+#mail:hover {
+    color: grey;
+}

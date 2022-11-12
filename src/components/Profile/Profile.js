@@ -1,26 +1,21 @@
-import style from './Profile.module.css';
-import profilepic from '../../assets/profilepic.png';
-import {constant} from '../../constants';
+import style from "./Profile.module.css";
+import profilepic from "../../assets/profilepic.png";
+import { constant } from "../../constants";
+import Contact from "./Contact";
 
 const Profile = (props) => {
   return (
-    <div className={style.profileWrapper}>
-      <img src={profilepic} className={style.imageContainer} alt='profilepic'/>
-      <hr width="1" size="50" color='white'/>
-      <hr className={style.line}/>
+    <div className={style.wrapper}>
       <h1 className={style.name}>{props.name}</h1>
-      <p className={style.aboutMeContainer}>{constant.WELCOME}</p>
-      <hr className={style.line}/>
-      <hr width="1" size="50" color='white'/>
+      <img src={profilepic} className={style.imageContainer} alt="profilepic" />
+      <Contact />
+      <hr width="1" size="30" color="white" />
+      <hr className={style.line} />
+      <p className={style.aboutContainer}>{constant.WELCOME}</p>
+      <hr className={style.line} />
+      <hr width="1" size="30" color="white" />
     </div>
   );
-}
-
-/**
- * How to put stuff on a new line each time using text
- * <br/> component is a break line
- * See about what tag to put text in lol
- *  
- * */
+};
 
 export default Profile;
