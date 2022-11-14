@@ -4,8 +4,6 @@
     padding: 1rem 15% 1rem;
     display: flex;
     flex-direction:column;
-    width: auto;
-    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -21,8 +19,7 @@
 .name {
     font-family: 'Spirax', cursive;
     font-weight: bold;
-    font-size: 3rem;
-    color: white;
+    font-size: 48px;
 }
 
 .line {
@@ -31,14 +28,6 @@
 }
 
 .aboutContainer {
-    color: white;
-    font-family: monospace;
     font-size: 20px;
     text-align: center;
 }
-
-/* .background {
-    background-image: url(../assets/background1.png);
-    background-repeat: 'no repeat';
-    background-size: cover;
-} */
