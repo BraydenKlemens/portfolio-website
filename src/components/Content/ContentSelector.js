@@ -1,9 +1,9 @@
 import { useState } from "react";
-import TabSelector from "./TabSelector";
+import TabBar from "./TabBar";
 import ContentView from "./ContentView";
 
 const ContentSelector = () => {
-  const [tab, setTab] = useState("");
+  const [tab, setTab] = useState("tab_0");
   const onTabChange = (tabID) => {
     switch (tabID) {
       case "tab_0":
@@ -29,7 +29,7 @@ const ContentSelector = () => {
 
   return (
     <>
-      <TabSelector activeTab={tab} onTabChange={onTabChange} />
+      <TabBar activeTab={tab} onTabChange={onTabChange} />
       <ContentView activeTab={tab} />
     </>
   );

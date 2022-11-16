@@ -1,7 +1,7 @@
-import style from "./TabSelector.module.css";
+import style from "./TabBar.module.css";
 import Tab from "./Tab";
 
-const TabSelector = ({ onTabChange, activeTab }) => {
+const TabBar = ({ onTabChange, activeTab }) => {
   return (
     <div className={style.wrapper}>
       <Tab
@@ -38,4 +38,4 @@ const TabSelector = ({ onTabChange, activeTab }) => {
   );
 };
 
-export default TabSelector;
+export default TabBar;
