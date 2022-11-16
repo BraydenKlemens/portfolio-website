@@ -1,0 +1,11 @@
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.info{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}

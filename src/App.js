@@ -1,11 +1,11 @@
 import Profile from "./components/Profile/Profile";
-import TabSelection from "./components/Content/TabSelection";
+import ContentSelector from "./components/Content/ContentSelector";
 
 function App() {
   return (
     <>
       <Profile name={"Brayden Klemens"} />
-      <TabSelection />
+      <ContentSelector />
     </>
   );
 }

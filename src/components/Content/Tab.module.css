@@ -1,10 +1,9 @@
 
-
 .btn {
     /* style */
     background-color: transparent;
-    outline: 1px solid white;
     color: white;
+    outline: 1px solid white;
     border: none;
     font-weight: bold;
     font-size: 16px;

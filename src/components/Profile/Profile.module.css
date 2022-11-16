@@ -1,14 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.about {
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
 .wrapper {
     display: flex;
     flex-direction:column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -18,21 +12,9 @@
     height: 200px;
     border-radius: 50%;
     padding: 3px;
-
 }
 
 .name {
     font-family: 'Press Start 2P', cursive;
-}
-
-.line {
-    width: 100%;
-    border: 1px solid white;
-}
-
-.aboutContainer {
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px 20px 10px;
+    transform: scale(0.8,1.5);
 }
