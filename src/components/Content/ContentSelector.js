@@ -1,18 +1,37 @@
-import React from "react";
+import { useState } from "react";
 import TabSelector from "./TabSelector";
-import ContentSelector from "./ContentSelector";
+import ContentView from "./ContentView";
 
 const ContentSelector = () => {
-  const [tabID, setTabId] = useState("0");
-  const tabChangeHandler = () => {
-    switch(tabID)
-  }
+  const [tab, setTab] = useState("");
+  const onTabChange = (tabID) => {
+    switch (tabID) {
+      case "tab_0":
+        setTab((currTab) => (currTab = "tab_0"));
+        break;
+      case "tab_1":
+        setTab((currTab) => (currTab = "tab_1"));
+        break;
+      case "tab_2":
+        setTab((currTab) => (currTab = "tab_2"));
+        break;
+      case "tab_3":
+        setTab((currTab) => (currTab = "tab_3"));
+        break;
+      case "tab_4":
+        setTab((currTab) => (currTab = "tab_4"));
+        break;
+      default:
+        setTab((currTab) => (currTab = "tab_0"));
+        break;
+    }
+  };
 
   return (
-    <div>
-      <TabSelector/>
-      <ContentSelector/>
-    </div>
+    <>
+      <TabSelector activeTab={tab} onTabChange={onTabChange} />
+      <ContentView activeTab={tab} />
+    </>
   );
 };
 

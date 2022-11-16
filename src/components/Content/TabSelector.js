@@ -1,14 +1,39 @@
 import style from "./TabSelector.module.css";
 import Tab from "./Tab";
 
-const TabSelector = (props) => {
+const TabSelector = ({ onTabChange, activeTab }) => {
   return (
     <div className={style.wrapper}>
-      <Tab name={"EDUCATION"} tabID={"0"} onTabChange={props.onTabChange} />
-      <Tab name={"WORK"} TabID={"1"} onTabChange={props.onTabChange} />
-      <Tab name={"SKILLS"} tabID={"2"} onTabChange={props.onTabChange} />
-      <Tab name={"PROJECTS"} tabID={"3"} onTabChange={props.onTabChange} />
-      <Tab name={"GAMEDEV"} tabID={"4"} onTabChange={props.onTabChange} />
+      <Tab
+        name={"EDUCATION"}
+        tabID={"tab_0"}
+        onTabChange={onTabChange}
+        activeTab={activeTab}
+      />
+      <Tab
+        name={"WORK"}
+        tabID={"tab_1"}
+        onTabChange={onTabChange}
+        activeTab={activeTab}
+      />
+      <Tab
+        name={"SKILLS"}
+        tabID={"tab_2"}
+        onTabChange={onTabChange}
+        activeTab={activeTab}
+      />
+      <Tab
+        name={"PROJECTS"}
+        tabID={"tab_3"}
+        onTabChange={onTabChange}
+        activeTab={activeTab}
+      />
+      <Tab
+        name={"GAMEDEV"}
+        tabID={"tab_4"}
+        onTabChange={onTabChange}
+        activeTab={activeTab}
+      />
     </div>
   );
 };

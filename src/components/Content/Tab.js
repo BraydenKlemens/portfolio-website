@@ -1,15 +1,32 @@
 import style from "./Tab.module.css";
 
-const Tab = (props) => {
+const Tab = ({ onTabChange, name, tabID, activeTab }) => {
+  const onTabChangeHandler = () => {
+    onTabChange(tabID);
+  };
+
   return (
-    <button
-      type="button"
-      className={style.btn}
-      id={props.id}
-      onClick={props.onTabChange}
-    >
-      {props.name}
-    </button>
+    <>
+      {activeTab == tabID && (
+        <button
+          type="button"
+          className={style.active}
+          onClick={onTabChangeHandler}
+        >
+          {name}
+        </button>
+      )}
+
+      {activeTab != tabID && (
+        <button
+          type="button"
+          className={style.btn}
+          onClick={onTabChangeHandler}
+        >
+          {name}
+        </button>
+      )}
+    </>
   );
 };
 

@@ -29,6 +29,27 @@
     text-shadow: 1px 1px 2px #427388;
 }
 
+.active {
+    background-color: transparent;
+    color: white;
+    outline: 1px solid white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    width: 20%;
+    min-width: 100px;
+    height: 50px;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px rgb(160, 94, 222), 0 0 20px rgba(255, 255, 255, 0.2); 
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 10px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
 @media (max-width: 600px) {
     .btn {
         width: 50%;
