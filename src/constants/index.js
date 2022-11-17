@@ -86,7 +86,7 @@ const WORK = [
     location: "Remote",
     bullets: [
       "Developed a cross platform Flutter application, to be used as a survey tool in research collection",
-      "Dynamically updated user data through a Cloud Firestore service",
+      "Dynamically updated user data using the Cloud Firestore service",
       "Designed and created wireframe and control flow for all states of the application",
       "Features: create/delete accounts, complete surveys, history log, notification services",
     ],
