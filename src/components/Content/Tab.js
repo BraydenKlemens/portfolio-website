@@ -7,7 +7,7 @@ const Tab = ({ onTabChange, name, tabID, activeTab }) => {
 
   return (
     <>
-      {activeTab == tabID && (
+      {activeTab === tabID && (
         <button
           type="button"
           className={style.active}
@@ -17,7 +17,7 @@ const Tab = ({ onTabChange, name, tabID, activeTab }) => {
         </button>
       )}
 
-      {activeTab != tabID && (
+      {activeTab !== tabID && (
         <button
           type="button"
           className={style.btn}

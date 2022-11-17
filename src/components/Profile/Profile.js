@@ -5,12 +5,12 @@ import Contact from "./Contact";
 import InfoSection from "../UI/InfoSection";
 import Divider from "../UI/Divider";
 
-const Profile = (props) => {
+const Profile = ({ name }) => {
   return (
     <>
       {/* header profile pic, name and contact */}
       <div className={styles.wrapper}>
-        <h1 className={styles.name}>{props.name}</h1>
+        <h1 className={styles.name}>{name}</h1>
         <img
           src={profilepic}
           className={styles.imageContainer}

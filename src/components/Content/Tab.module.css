@@ -55,4 +55,7 @@
     .btn {
         width: 50%;
     }
+    .active{
+        width: 50%;
+    }
 }

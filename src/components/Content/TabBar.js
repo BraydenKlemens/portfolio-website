@@ -5,31 +5,31 @@ const TabBar = ({ onTabChange, activeTab }) => {
   return (
     <div className={style.wrapper}>
       <Tab
-        name={"EDUCATION"}
+        name={"CAREER"}
         tabID={"tab_0"}
         onTabChange={onTabChange}
         activeTab={activeTab}
       />
       <Tab
-        name={"WORK"}
+        name={"SKILLS"}
         tabID={"tab_1"}
         onTabChange={onTabChange}
         activeTab={activeTab}
       />
       <Tab
-        name={"SKILLS"}
+        name={"PROJECTS"}
         tabID={"tab_2"}
         onTabChange={onTabChange}
         activeTab={activeTab}
       />
       <Tab
-        name={"PROJECTS"}
+        name={"GAMEDEV"}
         tabID={"tab_3"}
         onTabChange={onTabChange}
         activeTab={activeTab}
       />
       <Tab
-        name={"GAMEDEV"}
+        name={"ABOUT"}
         tabID={"tab_4"}
         onTabChange={onTabChange}
         activeTab={activeTab}
