@@ -2,4 +2,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    max-width: max-content;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.light {
+    background: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dark {
+    background: #282c34;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.black {
+    background: Black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
 }

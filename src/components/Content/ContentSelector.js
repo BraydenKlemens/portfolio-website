@@ -3,7 +3,7 @@ import TabBar from "./TabBar";
 import ContentView from "./ContentView";
 
 const ContentSelector = () => {
-  const [tab, setTab] = useState("tab_0");
+  const [tab, setTab] = useState("");
   const onTabChange = (tabID) => {
     switch (tabID) {
       case "tab_0":
@@ -22,7 +22,7 @@ const ContentSelector = () => {
         setTab((currTab) => (currTab = "tab_4"));
         break;
       default:
-        setTab((currTab) => (currTab = "tab_0"));
+        setTab((currTab) => (currTab = ""));
         break;
     }
   };

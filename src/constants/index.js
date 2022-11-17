@@ -5,66 +5,66 @@ I am currently learning mobile development in Flutter & and game development in 
 const SKILL_LANGUAGES = [
   {
     name: "Java",
-    level: "3",
+    level: 90,
   },
   {
     name: "Python",
-    level: "3",
+    level: 90,
   },
   {
     name: "C",
-    level: "3",
+    level: 90,
   },
   {
     name: "Dart",
-    level: "3",
-  },
-  {
-    name: "Javascript/Typescript",
-    level: "2",
-  },
-  {
-    name: "HTML / CSS",
-    level: "2",
+    level: 80,
   },
   {
     name: "C#",
-    level: "2",
+    level: 80,
+  },
+  {
+    name: "Javascript/Typescript",
+    level: 70,
+  },
+  {
+    name: "HTML / CSS",
+    level: 70,
   },
   {
     name: "Swift/Kotlin",
-    level: 1,
+    level: 30,
   },
 ];
 
 const SKILL_FRAMEWORKS = [
   {
     name: "Flutter",
-    level: "3",
+    level: 90,
   },
   {
     name: "AWS",
-    level: "3",
+    level: 90,
   },
   {
     name: "Azure/GCP",
-    level: "2",
+    level: 80,
   },
   {
     name: "MySQL",
-    level: "2",
+    level: 70,
   },
   {
     name: "React.JS / Node.js",
-    level: "2",
+    level: 70,
   },
   {
     name: "React Native",
-    level: "2",
+    level: 70,
   },
   {
     name: "Angular.Js",
-    level: "1",
+    level: 50,
   },
 ];
 
@@ -80,7 +80,7 @@ const EDUCATION = {
 
 const WORK = [
   {
-    position: "Flutter Developer - Contract",
+    position: "Flutter Developer (Contract)",
     title: "University of Guelph",
     date: "Jul 2022 - Oct 2022",
     location: "Remote",
@@ -92,7 +92,7 @@ const WORK = [
     ],
   },
   {
-    position: "Data Science Software Developer - Contract",
+    position: "Data Science Software Developer (Contract)",
     title: "University of Moncton",
     date: "May 2022 - Jun 2022",
     location: "Remote",
@@ -103,7 +103,7 @@ const WORK = [
     ],
   },
   {
-    position: "Software Developer - (Co-op)",
+    position: "Software Developer (Co-op)",
     title: "Brock Solutions",
     date: "Jan 2021 - Apr 2021",
     location: "Remote | Kitchener, ONT",
@@ -114,8 +114,8 @@ const WORK = [
     ],
   },
   {
-    position: "Machine Learning Developer",
-    title: "Thermal Camera Project - University of Guelph - (Co-op)",
+    position: "Machine Learning Developer (Co-op)",
+    title: " UofG Thermal Camera Project",
     date: "May 2020 - Aug 2020",
     location: "Remote | Guelph, ONT",
     bullets: [
@@ -125,7 +125,7 @@ const WORK = [
     ],
   },
   {
-    position: "Software Developer - (Co-op)",
+    position: "Software Developer (Co-op)",
     title: "Camis Inc.",
     date: "Sep 2019 - Dec 2019",
     location: "Guelph, ONT",
@@ -136,7 +136,7 @@ const WORK = [
     ],
   },
   {
-    position: "Mobile Developer - (Co-op)",
+    position: "Mobile Developer (Co-op)",
     title: "Perpetual Motion Sports & Entertainment",
     date: "May 2019 - Aug 2019",
     location: "Guelph, ONT",
@@ -156,21 +156,15 @@ const PROJECTS = [
     urls: [""],
   },
   {
-    title: "Survey Hub",
-    stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
-    desc: "A centralized location for students to complete surveys they have signed up for at UofG.",
+    title: "BraydenKlemens.github.io",
+    stack: "React.Js",
+    desc: "Portfolio website that is constantly growing and being uopdated.",
     urls: [""],
   },
   {
-    title: "Survey Hub",
-    stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
-    desc: "A centralized location for students to complete surveys they have signed up for at UofG.",
-    urls: [""],
-  },
-  {
-    title: "Survey Hub",
-    stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
-    desc: "A centralized location for students to complete surveys they have signed up for at UofG.",
+    title: "Recipe App",
+    stack: "Flutter, Dart",
+    desc: "A simple Flutter App to display recipes.",
     urls: [""],
   },
 ];

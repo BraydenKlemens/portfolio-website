@@ -25,9 +25,9 @@
 }
 
 #mail {
-    color: white;
+    color: rgb(93, 147, 235);
 }
 
 #mail:hover {
-    color: grey;
+    color: rgb(138, 176, 236);
 }

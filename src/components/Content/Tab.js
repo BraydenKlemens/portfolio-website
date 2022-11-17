@@ -2,6 +2,9 @@ import style from "./Tab.module.css";
 
 const Tab = ({ onTabChange, name, tabID, activeTab }) => {
   const onTabChangeHandler = () => {
+    if (activeTab === tabID) {
+      tabID = "";
+    }
     onTabChange(tabID);
   };
 

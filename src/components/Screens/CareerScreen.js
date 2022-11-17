@@ -1,12 +1,24 @@
 /*
-- skills bar calculator
 - Download Stuff button
 - Work experience card
 - project card
 */
+import { constants } from "../../constants";
+import Divider from "../UI/Divider";
 
 const CareerScreen = () => {
-  return <div>EducationScreen</div>;
+  const jobs = constants.WORK;
+  const education = constants.EDUCATION;
+
+  return (
+    <>
+      {jobs.map((job) => (
+        <>
+          <h2>{`${job.position} @ ${job.title}`}</h2>
+        </>
+      ))}
+    </>
+  );
 };
 
 export default CareerScreen;

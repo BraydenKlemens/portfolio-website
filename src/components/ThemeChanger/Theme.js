@@ -14,9 +14,9 @@ const Theme = () => {
 
   return (
     <div className={style.container}>
-      <button onClick={() => changeColor("Gray")}>Light</button>
-      <button onClick={() => changeColor("#282c34")}>Dark</button>
-      <button onClick={() => changeColor("black")}>Black</button>
+      <div onClick={() => changeColor("Gray")} className={style.light}></div>
+      <div onClick={() => changeColor("#282c34")} className={style.dark}></div>
+      <div onClick={() => changeColor("black")} className={style.black}></div>
     </div>
   );
 };
