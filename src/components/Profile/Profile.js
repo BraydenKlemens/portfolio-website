@@ -21,9 +21,9 @@ const Profile = ({ name }) => {
 
       {/* About me section */}
       <hr width="1" size="30" color="white" id="verticalLine" />
-      <Divider />
+      <Divider type={"long"} />
       <InfoSection>{constants.ABOUT}</InfoSection>
-      <Divider />
+      <Divider type={"long"} />
       <hr width="1" size="30" color="white" id="verticalLine" />
     </>
   );

@@ -13,10 +13,9 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
     width: `${completed}%`,
     backgroundColor: bgcolor,
     borderRadius: "inherit",
-    textAlign: "right",
     display: "flex",
     alignItems: "center",
-    justifyContent: "right",
+    justifyContent: "space-between",
   };
 
   const labelStyles = {
@@ -25,18 +24,18 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
     fontWeight: "bold",
   };
 
-  const wrapper = {
+  const wrapperStyles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
   };
 
   return (
-    <div style={wrapper}>
+    <div style={wrapperStyles}>
       {name}
       <div style={containerStyles}>
         <div style={fillerStyles}>
-          {name}
+          <p style={labelStyles}>{name}</p>
           <span style={labelStyles}>{`${completed}%`}</span>
         </div>
       </div>

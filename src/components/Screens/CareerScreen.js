@@ -24,7 +24,7 @@ const CareerScreen = () => {
               ))}
             </ul>
           </div>
-          <Divider />
+          <Divider type={"long"} />
         </>
       ))}
     </>
