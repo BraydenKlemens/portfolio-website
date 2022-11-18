@@ -1,22 +1,25 @@
 import ProgressBar from "../UI/ProgressBar";
 import { constants } from "../../constants";
-import Divider from "../UI/Divider";
 import style from "./Screen.module.css";
+
+const SkillBuilder = ({ name, arr }) => {
+  return (
+    <>
+      <h2>{name}</h2>
+      {arr.map((i) => (
+        <ProgressBar bgcolor={"gray"} completed={i.level} name={i.name} />
+      ))}
+    </>
+  );
+};
 
 const SkillScreen = () => {
   const languages = constants.SKILL_LANGUAGES;
   const frameworks = constants.SKILL_FRAMEWORKS;
-
   return (
-    <div className={style.wrapper}>
-      <h2>Programming Languages</h2>
-      {languages.map((language) => (
-        <ProgressBar
-          bgcolor={"gray"}
-          completed={language.level}
-          name={language.name}
-        />
-      ))}
+    <div className={style.skillScreenWrapper}>
+      <SkillBuilder arr={languages} name={"Programming Languages"} />
+      <SkillBuilder arr={frameworks} name={"Frameworks"} />
     </div>
   );
 };

@@ -1,4 +1,12 @@
-.container {
+.careerScreenWrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.skillScreenWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -6,12 +14,4 @@
 .contents {
     display: flex;
     flex-direction: column;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 20%;
-    padding-right: 20%;
 }

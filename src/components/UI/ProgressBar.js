@@ -1,3 +1,8 @@
+/*
+- Helper component, uses inline styling
+- Inline styling enables using props to change the progress percentage and color
+*/
+
 const ProgressBar = ({ bgcolor, completed, name }) => {
   const containerStyles = {
     height: 30,
@@ -22,14 +27,6 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
     padding: 10,
     color: "white",
     fontWeight: "bold",
-  };
-
-  const wrapperStyles = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    paddingLeft: "20%",
-    paddingRight: "20%",
   };
 
   return (
