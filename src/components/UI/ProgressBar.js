@@ -1,11 +1,11 @@
 const ProgressBar = ({ bgcolor, completed, name }) => {
   const containerStyles = {
-    height: 25,
-    width: "600px",
+    height: 30,
+    width: "100%",
     backgroundColor: "#e0e0de",
     borderRadius: 50,
     margin: 10,
-    marginBottom: 30,
+    marginBottom: 20,
   };
 
   const fillerStyles = {
@@ -28,10 +28,12 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    paddingLeft: "20%",
+    paddingRight: "20%",
   };
 
   return (
-    <div style={wrapperStyles}>
+    <>
       {name}
       <div style={containerStyles}>
         <div style={fillerStyles}>
@@ -39,7 +41,7 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
           <span style={labelStyles}>{`${completed}%`}</span>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
