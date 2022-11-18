@@ -7,7 +7,7 @@ const SkillBuilder = ({ name, arr }) => {
     <>
       <h2>{name}</h2>
       {arr.map((i) => (
-        <ProgressBar bgcolor={"gray"} completed={i.level} name={i.name} />
+        <ProgressBar completed={i.level} name={i.name} />
       ))}
     </>
   );

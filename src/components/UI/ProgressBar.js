@@ -3,7 +3,16 @@
 - Inline styling enables using props to change the progress percentage and color
 */
 
-const ProgressBar = ({ bgcolor, completed, name }) => {
+const ProgressBar = ({ completed, name }) => {
+  let color = "gray";
+  if (completed <= 33) {
+    color = "Red";
+  } else if (completed > 33 && completed <= 66) {
+    color = "Orange";
+  } else {
+    color = "Green";
+  }
+
   const containerStyles = {
     height: 30,
     width: "100%",
@@ -16,7 +25,7 @@ const ProgressBar = ({ bgcolor, completed, name }) => {
   const fillerStyles = {
     height: "100%",
     width: `${completed}%`,
-    backgroundColor: bgcolor,
+    backgroundColor: color,
     borderRadius: "inherit",
     display: "flex",
     alignItems: "center",
