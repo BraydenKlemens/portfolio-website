@@ -5,9 +5,9 @@
 
 const ProgressBar = ({ completed, name }) => {
   let color = "gray";
-  if (completed <= 33) {
+  if (completed <= 50) {
     color = "Red";
-  } else if (completed > 33 && completed <= 66) {
+  } else if (completed > 50 && completed <= 75) {
     color = "Orange";
   } else {
     color = "Green";

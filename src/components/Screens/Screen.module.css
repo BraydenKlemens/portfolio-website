@@ -11,7 +11,12 @@
     padding-right: 20%;
 }
 
-.contents {
+.contentsColumn {
     display: flex;
     flex-direction: column;
+}
+
+.contentsRow {
+    display: flex;
+    flex-direction: row;
 }
