@@ -155,7 +155,7 @@ const PROJECTS = [
     github: "https://github.com/BraydenKlemens",
     description:
       "A centralized location for students to complete surveys they have signed up for at UofG",
-    urls: ["./apppic.png"],
+    urls: [require("../assets/apppic.png")],
   },
   {
     title: "Portfolio Website",
@@ -163,14 +163,14 @@ const PROJECTS = [
     github: "https://github.com/BraydenKlemens",
     description:
       "Portfolio website that is constantly growing and being updated",
-    urls: ["Dont", "make", "me"],
+    urls: [require("../assets/profilepic.png")],
   },
   {
     title: "Recipe App",
     stack: "Flutter, Dart",
     github: "https://github.com/BraydenKlemens",
     description: "A simple Flutter App to display recipes",
-    urls: ["Dont", "make", "me"],
+    urls: [require("../assets/profilepic.png")],
   },
 ];
 
@@ -182,7 +182,7 @@ const GAMES = [
     download: "poo",
     description:
       "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
-    urls: [""],
+    urls: ["../assets/profilepic.png"],
   },
   {
     title: "Plants Vs Zombies 2.0",
@@ -191,7 +191,7 @@ const GAMES = [
     download: "poo",
     description:
       "An infintie round based Plants vs Zombies remake of the origional mobile game",
-    urls: [""],
+    urls: ["../assets/profilepic.png"],
   },
   {
     title: "Connect 4",
@@ -199,7 +199,7 @@ const GAMES = [
     github: "https://github.com/BraydenKlemens",
     download: "poo",
     description: "A remake of Connect 4 board game",
-    urls: [""],
+    urls: ["../assets/profilepic.png"],
   },
 ];
 
