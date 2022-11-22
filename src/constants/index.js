@@ -179,6 +179,7 @@ const GAMES = [
     title: "Pokemon 2004GBA",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
+    download: "poo",
     description:
       "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
     urls: [""],
@@ -187,6 +188,7 @@ const GAMES = [
     title: "Plants Vs Zombies 2.0",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
+    download: "poo",
     description:
       "An infintie round based Plants vs Zombies remake of the origional mobile game",
     urls: [""],
@@ -195,6 +197,7 @@ const GAMES = [
     title: "Connect 4",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
+    download: "poo",
     description: "A remake of Connect 4 board game",
     urls: [""],
   },

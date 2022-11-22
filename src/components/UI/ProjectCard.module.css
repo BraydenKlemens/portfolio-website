@@ -21,16 +21,29 @@
     overflow: hidden;
 }
 
+.iconWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .icon {
     width: max-content;
+    padding: 0 10px 0;
+}
+
+#github {
     color: #782E9E;
 }
 
-.icon:hover {
-    color: rgb(186, 143, 226);
+#github:hover {
+    color: rgb(195, 148, 239);
 }
 
-.iconWrapper {
-    display: flex;
-    justify-content: center;
+#download {
+    color: rgb(59, 119, 217);
+}
+
+#download:hover {
+    color: rgb(138, 176, 236);
 }

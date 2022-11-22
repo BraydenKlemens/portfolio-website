@@ -1,6 +1,7 @@
 import PictureUpdater from "./PictureUpdater";
 import style from "./ProjectCard.module.css";
 import { VscGithub } from "react-icons/vsc";
+import { FaFileDownload } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -19,12 +20,24 @@ const ProjectCard = ({ project }) => {
         <div className={style.iconWrapper}>
           <a
             className={style.icon}
+            id={style.github}
             href="https://github.com/BraydenKlemens"
             target="_blank"
             rel="noreferrer"
           >
             <VscGithub size={36} />
           </a>
+          {project.download && (
+            <a
+              className={style.icon}
+              id={style.download}
+              href="https://github.com/BraydenKlemens"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFileDownload size={36} />
+            </a>
+          )}
         </div>
       </div>
     </div>
