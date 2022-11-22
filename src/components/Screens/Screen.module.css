@@ -1,14 +1,21 @@
 .careerScreenWrapper {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .skillScreenWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.projectScreenWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contentsColumn {

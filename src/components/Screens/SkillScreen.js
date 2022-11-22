@@ -27,8 +27,8 @@ const SkillBuilder = ({ name, arr }) => {
   return (
     <>
       <h2>{name}</h2>
-      {arr.map((i) => (
-        <ProgressBar completed={i.level} name={i.name} />
+      {arr.map((skill, i) => (
+        <ProgressBar key={i} completed={skill.level} name={skill.name} />
       ))}
     </>
   );

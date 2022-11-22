@@ -152,20 +152,22 @@ const PROJECTS = [
   {
     title: "Survey Hub",
     stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
-    desc: "A centralized location for students to complete surveys they have signed up for at UofG.",
-    urls: [""],
+    description:
+      "A centralized location for students to complete surveys they have signed up for at UofG",
+    urls: ["Dont", "make", "me"],
   },
   {
     title: "BraydenKlemens.github.io",
     stack: "React.Js",
-    desc: "Portfolio website that is constantly growing and being uopdated.",
-    urls: [""],
+    description:
+      "Portfolio website that is constantly growing and being uopdated",
+    urls: ["Dont", "make", "me"],
   },
   {
     title: "Recipe App",
     stack: "Flutter, Dart",
-    desc: "A simple Flutter App to display recipes.",
-    urls: [""],
+    description: "A simple Flutter App to display recipes",
+    urls: ["Dont", "make", "me"],
   },
 ];
 
@@ -173,19 +175,21 @@ const GAMES = [
   {
     title: "Pokemon 2004GBA",
     stack: "Java, LibGDX",
-    desc: "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
+    description:
+      "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
     urls: [""],
   },
   {
     title: "Plants Vs Zombies 2.0",
     stack: "Java, LibGDX",
-    desc: "An infintie round based Plants vs Zombies remake of the origional mobile game.",
+    description:
+      "An infintie round based Plants vs Zombies remake of the origional mobile game",
     urls: [""],
   },
   {
     title: "Connect 4",
     stack: "Java, LibGDX",
-    desc: "A remake of Connect 4 board game.",
+    description: "A remake of Connect 4 board game",
     urls: [""],
   },
 ];
