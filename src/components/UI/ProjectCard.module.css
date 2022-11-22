@@ -1,17 +1,36 @@
 .cardWrapper {
     background-color: white;
+    color: black;
     transition: box-shadow 200ms ease-in-out;
     border-radius: 10px;
-    width: 20%;
+    width: 350px;
+    margin: 15px;
+    padding: 15px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 15px;
-    padding: 15px;
-    background-color:white;
 }
 
 .cardWrapper:hover {
     box-shadow: 8px 10px 8px black;
+}
+
+.content {
+    height: 50px;
+    overflow: hidden;
+}
+
+.icon {
+    width: max-content;
+    color: #782E9E;
+}
+
+.icon:hover {
+    color: rgb(186, 143, 226);
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
 }

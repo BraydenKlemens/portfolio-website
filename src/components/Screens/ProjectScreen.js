@@ -1,4 +1,3 @@
-import PictureUpdater from "../UI/PictureUpdater";
 import { constants } from "../../constants";
 import style from "./Screen.module.css";
 import ProjectCard from "../UI/ProjectCard";

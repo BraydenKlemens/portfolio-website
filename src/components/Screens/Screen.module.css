@@ -16,6 +16,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contentsColumn {

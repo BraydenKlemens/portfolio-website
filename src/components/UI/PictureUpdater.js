@@ -8,22 +8,26 @@ const PictureUpdater = ({ pictures }) => {
   const [pic, setPic] = useState(picArray[0]);
 
   const changePicBack = () => {
-    if (index == 0) return;
+    if (index === 0) return;
     setIndex((i) => i - 1);
   };
   const changePicForward = () => {
-    if (index == picArray.length - 1) return;
+    if (index === picArray.length - 1) return;
     setIndex((i) => i + 1);
   };
 
   useEffect(() => {
     setPic((prev) => (prev = picArray[index]));
-  }, [index]);
+  }, [index, picArray]);
 
   return (
     <>
       <div className={style.imageContainer}>
-        <img src={pic} className={style.imageContainer} alt="profilepic" />
+        <img
+          src={pic}
+          className={style.imageContainer}
+          alt="project pictures"
+        />
       </div>
       <div className={style.buttonContainer}>
         <button className={style.btn} onClick={changePicBack}>

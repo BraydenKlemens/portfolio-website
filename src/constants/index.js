@@ -152,20 +152,23 @@ const PROJECTS = [
   {
     title: "Survey Hub",
     stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
+    github: "https://github.com/BraydenKlemens",
     description:
       "A centralized location for students to complete surveys they have signed up for at UofG",
-    urls: ["Dont", "make", "me"],
+    urls: ["./apppic.png"],
   },
   {
-    title: "BraydenKlemens.github.io",
+    title: "Portfolio Website",
     stack: "React.Js",
+    github: "https://github.com/BraydenKlemens",
     description:
-      "Portfolio website that is constantly growing and being uopdated",
+      "Portfolio website that is constantly growing and being updated",
     urls: ["Dont", "make", "me"],
   },
   {
     title: "Recipe App",
     stack: "Flutter, Dart",
+    github: "https://github.com/BraydenKlemens",
     description: "A simple Flutter App to display recipes",
     urls: ["Dont", "make", "me"],
   },
@@ -175,6 +178,7 @@ const GAMES = [
   {
     title: "Pokemon 2004GBA",
     stack: "Java, LibGDX",
+    github: "https://github.com/BraydenKlemens",
     description:
       "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
     urls: [""],
@@ -182,6 +186,7 @@ const GAMES = [
   {
     title: "Plants Vs Zombies 2.0",
     stack: "Java, LibGDX",
+    github: "https://github.com/BraydenKlemens",
     description:
       "An infintie round based Plants vs Zombies remake of the origional mobile game",
     urls: [""],
@@ -189,6 +194,7 @@ const GAMES = [
   {
     title: "Connect 4",
     stack: "Java, LibGDX",
+    github: "https://github.com/BraydenKlemens",
     description: "A remake of Connect 4 board game",
     urls: [""],
   },

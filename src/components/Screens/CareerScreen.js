@@ -9,7 +9,7 @@ import style from "./Screen.module.css";
 
 const CareerScreen = () => {
   const jobs = constants.WORK;
-  const education = constants.EDUCATION;
+  // const education = constants.EDUCATION;
 
   return (
     <>
