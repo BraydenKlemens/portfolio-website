@@ -69,12 +69,16 @@ const SKILL_FRAMEWORKS = [
 ];
 
 const EDUCATION = {
-  position: "Student",
+  position: "Honours Bachelor of Computing, Computer Science",
   title: "University of Guelph",
-  degree: "Honours Bachelor of Computing, Computer Science",
   date: "2017 - 2022",
-  bullet:
+  location: "Guelph, Ontario",
+  image: require("../assets/jobicons/uofg.png"),
+  bullets: [
     "Notable Courses: Discrete Mathematics, Data Structures, Algorithms, Object Oriented Programming, Operating Systems, System Design &Integration, Cloud Computing, Mobile Development",
+    "Deans list 6/8 semesters",
+    "85% average - graduated with distinction",
+  ],
 };
 
 const WORK = [
@@ -83,6 +87,7 @@ const WORK = [
     title: "University of Guelph",
     date: "Jul 2022 - Oct 2022",
     location: "Remote",
+    image: require("../assets/jobicons/uofg.png"),
     bullets: [
       "Developed a cross platform Flutter application, to be used as a survey tool in research collection",
       "Dynamically updated user data using the Cloud Firestore service",
@@ -95,6 +100,7 @@ const WORK = [
     title: "University of Moncton",
     date: "May 2022 - Jun 2022",
     location: "Remote",
+    image: require("../assets/jobicons/moncton.jpeg"),
     bullets: [
       "Architected a data cleaning pipeline for an ergonomic research study",
       "Developed python scripts to clean bad motion capture data from CSV files",
@@ -105,7 +111,8 @@ const WORK = [
     position: "Software Developer (Co-op)",
     title: "Brock Solutions",
     date: "Jan 2021 - Apr 2021",
-    location: "Remote | Kitchener, ONT",
+    location: "Remote | Kitchener, Ontario",
+    image: require("../assets/jobicons/brock.jpeg"),
     bullets: [
       "Developed and improved manufacturing execution systems for R.J. Reynolds",
       "Traced through code to delete unused/outdated functions and rewrote them",
@@ -116,18 +123,21 @@ const WORK = [
     position: "Machine Learning Developer (Co-op)",
     title: " UofG Thermal Camera Project",
     date: "May 2020 - Aug 2020",
-    location: "Remote | Guelph, ONT",
+    location: "Remote | Guelph, Ontario",
+    image: require("../assets/jobicons/uofg.png"),
     bullets: [
       "Architected a machine learning pipeline, which uses thermal imaging data to detect COVID-19",
       "Developed a facial detection script using a human face data set and a 64 nodal point mesh",
       "Used adaptive thresholding to calculate average and mean pixel values in regions of thermal faces to determine body temperature and breath rate",
+      "https://guides.uoguelph.ca/2021/09/researchers-aim-to-improve-covid-19-screening-with-thermal-camera-based-imaging-tool/",
     ],
   },
   {
     position: "Software Developer (Co-op)",
     title: "Camis Inc.",
     date: "Sep 2019 - Dec 2019",
-    location: "Guelph, ONT",
+    location: "Guelph, Ontario",
+    image: require("../assets/jobicons/camis.jpeg"),
     bullets: [
       "Built front end UI systems and user flows for various Ontario Parks reservations systems",
       "Implemented front-end bug fixes and added style changes for the client website",
@@ -138,7 +148,8 @@ const WORK = [
     position: "Mobile Developer (Co-op)",
     title: "Perpetual Motion Sports & Entertainment",
     date: "May 2019 - Aug 2019",
-    location: "Guelph, ONT",
+    location: "Guelph, Ontario",
+    image: require("../assets/jobicons/motion.jpeg"),
     bullets: [
       "Developed a cross platform application using React Native, populated dynamically using website API data",
       "Tested IOS on Test Flight and generated an APK to test on Android",

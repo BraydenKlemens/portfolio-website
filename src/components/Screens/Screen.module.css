@@ -20,6 +20,11 @@
     padding-right: 5%;
 }
 
+.aboutScreenWrapper {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .contentsColumn {
     display: flex;
     flex-direction: column;
@@ -30,7 +35,8 @@
     flex-direction: row;
 }
 
-.contentCenter {
+.contentsCenter {
     display: flex;
     justify-content: center;
+    align-items: center;
 }

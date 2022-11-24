@@ -1,7 +1,7 @@
-import React from "react";
+import style from "./Screen.module.css";
 
 const AboutScreen = () => {
-  return <div>AboutScreen</div>;
+  return <div className={style.aboutScreenWrapper}>AboutScreen</div>;
 };
 
 export default AboutScreen;
