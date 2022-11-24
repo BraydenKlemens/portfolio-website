@@ -73,9 +73,8 @@ const EDUCATION = {
   title: "University of Guelph",
   degree: "Honours Bachelor of Computing, Computer Science",
   date: "2017 - 2022",
-  bullets: [
+  bullet:
     "Notable Courses: Discrete Mathematics, Data Structures, Algorithms, Object Oriented Programming, Operating Systems, System Design &Integration, Cloud Computing, Mobile Development",
-  ],
 };
 
 const WORK = [
@@ -151,15 +150,18 @@ const WORK = [
 const PROJECTS = [
   {
     title: "Survey Hub",
-    stack: "Flutter, Dart, Cloud Firestore / Firebase, Provider",
+    stack: "Flutter, Dart, Cloud Firestore, Firebase, Provider",
     github: "https://github.com/BraydenKlemens",
     description:
       "A centralized location for students to complete surveys they have signed up for at UofG",
-    urls: [require("../assets/apppic.png")],
+    urls: [
+      require("../assets/apppic.png"),
+      require("../assets/profilepic.png"),
+    ],
   },
   {
     title: "Portfolio Website",
-    stack: "React.Js",
+    stack: "React.Js, Node.js",
     github: "https://github.com/BraydenKlemens",
     description:
       "Portfolio website that is constantly growing and being updated",

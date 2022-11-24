@@ -8,11 +8,17 @@ const PictureUpdater = ({ pictures }) => {
   const [pic, setPic] = useState(picArray[0]);
 
   const changePicBack = () => {
-    if (index === 0) return;
+    if (index === 0) {
+      // setIndex((i) => (i = picArray.length - 1));
+      return;
+    }
     setIndex((i) => i - 1);
   };
   const changePicForward = () => {
-    if (index === picArray.length - 1) return;
+    if (index === picArray.length - 1) {
+      // setIndex((i) => (i = 0));
+      return;
+    }
     setIndex((i) => i + 1);
   };
 

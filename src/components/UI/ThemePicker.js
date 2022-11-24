@@ -1,7 +1,7 @@
-import style from "./Theme.module.css";
+import style from "./ThemePicker.module.css";
 import { useEffect, useState } from "react";
 
-const Theme = () => {
+const ThemePicker = () => {
   const [color, setColor] = useState("#282c34");
 
   const changeColor = (color) => {
@@ -21,4 +21,4 @@ const Theme = () => {
   );
 };
 
-export default Theme;
+export default ThemePicker;
