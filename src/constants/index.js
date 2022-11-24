@@ -182,7 +182,7 @@ const PROJECTS = [
     title: "Recipe App",
     stack: "Flutter, Dart",
     github: "https://github.com/BraydenKlemens",
-    description: "A simple Flutter App to display recipes",
+    description: "A simple Flutter app to display recipes",
     urls: [require("../assets/profilepic.png")],
   },
 ];

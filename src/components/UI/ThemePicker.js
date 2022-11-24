@@ -10,6 +10,10 @@ const ThemePicker = () => {
 
   useEffect(() => {
     document.body.style.backgroundColor = color;
+    document.body.style.color = "White";
+    if (color === "Gray") {
+      document.body.style.color = "Black";
+    }
   }, [color]);
 
   return (

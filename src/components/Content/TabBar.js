@@ -3,7 +3,7 @@ import Tab from "./Tab";
 
 const TabBar = ({ onTabChange, activeTab }) => {
   return (
-    <div className={style.wrapper}>
+    <div className={style.tabWrapper}>
       <Tab
         name={"CAREER"}
         tabID={"tab_0"}
