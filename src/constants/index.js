@@ -176,8 +176,13 @@ const PROJECTS = [
     description:
       "A centralized location for students to complete surveys they have signed up for at UofG",
     urls: [
-      require("../assets/apppic.png"),
-      require("../assets/profilepic.png"),
+      require("../assets/projects/survey_hub/login.png"),
+      require("../assets/projects/survey_hub/register.png"),
+      require("../assets/projects/survey_hub/home.png"),
+      require("../assets/projects/survey_hub/survey.png"),
+      require("../assets/projects/survey_hub/surveydone.png"),
+      require("../assets/projects/survey_hub/history.png"),
+      require("../assets/projects/survey_hub/profile.png"),
     ],
   },
   {
@@ -186,7 +191,7 @@ const PROJECTS = [
     github: "https://github.com/BraydenKlemens",
     description:
       "Portfolio website that is constantly growing and being updated",
-    urls: [require("../assets/profilepic.png")],
+    urls: [require("../assets/projects/portfolio/website_home.png")],
   },
   {
     title: "Recipe App",

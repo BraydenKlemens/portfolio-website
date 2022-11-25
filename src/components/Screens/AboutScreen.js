@@ -1,7 +1,8 @@
 import style from "./Screen.module.css";
 import btnStyle from "../Content/Tab.module.css";
 import { constants } from "../../constants";
-import resume from "../../assets/resume/resumepic.png";
+import resumepic from "../../assets/resume/resumepic.png";
+import resumepdf from "../../assets/resume/BraydenKlemensResume.pdf";
 
 const AboutScreen = () => {
   return (
@@ -11,9 +12,9 @@ const AboutScreen = () => {
       <h2 className={style.contentsCenter}>Hobbies & Interests</h2>
       <hr />
       <ul>
-        {constants.HOBBIES.map((bullet, j) => (
-          <li style={{ fontSize: 18, fontWeight: "bold" }} key={j}>
-            {bullet}
+        {constants.HOBBIES.map((hobby, i) => (
+          <li style={{ fontSize: 18, fontWeight: "bold" }} key={i}>
+            {hobby}
           </li>
         ))}
       </ul>
@@ -23,9 +24,15 @@ const AboutScreen = () => {
       <h2 className={style.contentsCenter}>Resume</h2>
       <hr />
       <div className={style.contentsCenter}>
-        <button className={btnStyle.btn}>DOWNLOAD</button>
+        <a
+          href={resumepdf}
+          download="bklemens_resume.pdf"
+          className={btnStyle.btn}
+        >
+          DOWNLOAD
+        </a>
         <img
-          src={resume}
+          src={resumepic}
           className={style.imageContainer}
           alt="Resume Picture"
         />
