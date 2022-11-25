@@ -170,6 +170,14 @@ const WORK = [
 
 const PROJECTS = [
   {
+    title: "Portfolio Website",
+    stack: "React.Js, Node.js",
+    github: "https://github.com/BraydenKlemens",
+    description:
+      "Portfolio website that is constantly growing and being updated",
+    urls: [require("../assets/projects/portfolio/website_home.png")],
+  },
+  {
     title: "Survey Hub",
     stack: "Flutter, Dart, Cloud Firestore, Firebase, Provider",
     github: "https://github.com/BraydenKlemens",
@@ -186,19 +194,29 @@ const PROJECTS = [
     ],
   },
   {
-    title: "Portfolio Website",
-    stack: "React.Js, Node.js",
+    title: "Attraction App",
+    stack: "Flutter, Dart",
     github: "https://github.com/BraydenKlemens",
     description:
-      "Portfolio website that is constantly growing and being updated",
-    urls: [require("../assets/projects/portfolio/website_home.png")],
+      "A simple Flutter app that shows details about attractions around guelph",
+    urls: [
+      require("../assets/projects/attractions_app/home.png"),
+      require("../assets/projects/attractions_app/attraction.png"),
+      require("../assets/projects/attractions_app/schedule.png"),
+      require("../assets/projects/rattractions_app/filter.png"),
+      require("../assets/projects/attractions_app/create.png"),
+    ],
   },
   {
     title: "Recipe App",
     stack: "Flutter, Dart",
     github: "https://github.com/BraydenKlemens",
-    description: "A simple Flutter app to display recipes",
-    urls: [require("../assets/profilepic.png")],
+    description: "A simple Flutter app for discovering new recipes",
+    urls: [
+      require("../assets/projects/recipe_app/home.png"),
+      require("../assets/projects/recipe_app/recipe.png"),
+      require("../assets/projects/recipe_app/nav.png"),
+    ],
   },
 ];
 
