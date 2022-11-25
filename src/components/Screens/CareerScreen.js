@@ -1,8 +1,3 @@
-/*
-- Download Stuff button
-- Work experience card
-- project card
-*/
 import { constants } from "../../constants";
 import JobCard from "../UI/JobCard";
 import style from "./Screen.module.css";
@@ -29,6 +24,17 @@ const CareerScreen = () => {
           <hr />
         </div>
       ))}
+
+      {/* Wordpress website link */}
+      <a
+        style={{ color: "#58A6FF", fontSize: 20, fontWeight: "bold" }}
+        href="https://bklemenscoop.wordpress.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Click here to learn more about my Co-op experiences
+      </a>
+      <hr />
     </div>
   );
 };

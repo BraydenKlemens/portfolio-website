@@ -39,4 +39,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.imageContainer {
+    border-radius: 10px;
 }

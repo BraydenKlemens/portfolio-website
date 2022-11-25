@@ -1,6 +1,16 @@
 // eslint-disable no-unused-vars
 const ABOUT = `Aye there traveller, thanks for stopping by! Feel free to browse my dev journey thus far.
-I am currently learning mobile development in Flutter & and game development in Unity.`;
+After graduating from the University of Guelph with a Computer Science Degree, I completed two short contract opportunities.
+I am now honing my mobile development skills in Flutter, learning ReactJS, & learning game development in Unity.`;
+
+const HOBBIES = [
+  "Writing and recording 5 piece band music - I typically record piano and guitar using Logic Pro X",
+  "Travelling the world with friends - This year I visted Thailand, Italy, Croatia & Montenegro",
+  "Going on hiking trips and outdoor rock climbing trips",
+  "Training both in the gym and running",
+  "Snowboarding through the winter",
+  "Playing competative PC games, & binge watching new tv shows",
+];
 
 const SKILL_LANGUAGES = [
   {
@@ -129,7 +139,7 @@ const WORK = [
       "Architected a machine learning pipeline, which uses thermal imaging data to detect COVID-19",
       "Developed a facial detection script using a human face data set and a 64 nodal point mesh",
       "Used adaptive thresholding to calculate average and mean pixel values in regions of thermal faces to determine body temperature and breath rate",
-      "https://guides.uoguelph.ca/2021/09/researchers-aim-to-improve-covid-19-screening-with-thermal-camera-based-imaging-tool/",
+      "Check out the official article: https://guides.uoguelph.ca/2021/09/researchers-aim-to-improve-covid-19-screening-with-thermal-camera-based-imaging-tool/",
     ],
   },
   {
@@ -224,4 +234,5 @@ export const constants = {
   WORK,
   PROJECTS,
   GAMES,
+  HOBBIES,
 };

@@ -2,7 +2,6 @@ import style from "./Profile.module.css";
 import profilepic from "../../assets/profilepic.png";
 import { constants } from "../../constants";
 import Contact from "./Contact";
-// import ThemePicker from "../UI/ThemePicker";
 
 const Profile = ({ name }) => {
   return (
@@ -16,7 +15,6 @@ const Profile = ({ name }) => {
           alt="profilepic"
         />
         <Contact />
-        {/* <ThemePicker /> */}
       </div>
 
       {/* About me section */}
