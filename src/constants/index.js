@@ -203,7 +203,7 @@ const PROJECTS = [
       require("../assets/projects/attractions_app/home.png"),
       require("../assets/projects/attractions_app/attraction.png"),
       require("../assets/projects/attractions_app/schedule.png"),
-      require("../assets/projects/rattractions_app/filter.png"),
+      require("../assets/projects/attractions_app/filter.png"),
       require("../assets/projects/attractions_app/create.png"),
     ],
   },
