@@ -27,13 +27,12 @@ const ProjectCard = ({ project }) => {
           >
             <VscGithub size={36} />
           </a>
-          {project.download && (
+          {project.gamefile && (
             <a
               className={style.icon}
               id={style.download}
-              href="https://github.com/BraydenKlemens"
-              target="_blank"
-              rel="noreferrer"
+              href={project.gamefile}
+              download={project.download}
             >
               <FaFileDownload size={36} />
             </a>

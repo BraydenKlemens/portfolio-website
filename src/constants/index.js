@@ -222,30 +222,63 @@ const PROJECTS = [
 
 const GAMES = [
   {
-    title: "Pokemon 2004GBA",
+    title: "Pokemon Leaf Green",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
-    download: "poo",
+    gamefile: require("../assets/games/pokemon/PokemonGame.zip"),
+    download: "PokemonGame.zip",
     description:
       "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
-    urls: ["../assets/profilepic.png"],
+    urls: [
+      require("../assets/games/pokemon/gameplay0.png"),
+      require("../assets/games/pokemon/gameplay1.png"),
+      require("../assets/games/pokemon/gameplay2.png"),
+      require("../assets/games/pokemon/gameplay3.png"),
+      require("../assets/games/pokemon/gameplay4.png"),
+      require("../assets/games/pokemon/gameplay5.png"),
+    ],
   },
   {
-    title: "Plants Vs Zombies 2.0",
+    title: "Plants Vs Zombies",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
-    download: "poo",
+    gamefile: require("../assets/games/pvz/PlantsVsZombiesGame.zip"),
+    download: "PlantsVsZombiesGame.zip",
     description:
       "An infintie round based Plants vs Zombies remake of the origional mobile game",
-    urls: ["../assets/profilepic.png"],
+    urls: [
+      require("../assets/games/pvz/gameplay0.png"),
+      require("../assets/games/pvz/gameplay1.png"),
+      require("../assets/games/pvz/gameplay2.png"),
+      require("../assets/games/pvz/gameplay3.png"),
+      require("../assets/games/pvz/gameplay4.png"),
+      require("../assets/games/pvz/gameplay5.png"),
+    ],
+  },
+  {
+    title: "Flappy Bird",
+    stack: "Java, LibGDX",
+    github: "https://github.com/BraydenKlemens",
+    gamefile: require("../assets/games/flappybird/FlappyBirdGame.zip"),
+    download: "FlappyBirdGame.zip",
+    description: "A remake of Connect 4 board game",
+    urls: [
+      require("../assets/games/flappybird/gameplay0.png"),
+      require("../assets/games/flappybird/gameplay1.png"),
+      require("../assets/games/flappybird/gameplay2.png"),
+    ],
   },
   {
     title: "Connect 4",
     stack: "Java, LibGDX",
     github: "https://github.com/BraydenKlemens",
-    download: "poo",
+    gamefile: require("../assets/games/connect4/ConnectFourGame.zip"),
+    download: "ConnectFourGame.zip",
     description: "A remake of Connect 4 board game",
-    urls: ["../assets/profilepic.png"],
+    urls: [
+      require("../assets/games/connect4/gameplay0.png"),
+      require("../assets/games/connect4/gameplay1.png"),
+    ],
   },
 ];
 
