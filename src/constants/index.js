@@ -1,29 +1,30 @@
 // eslint-disable no-unused-vars
-const ABOUT = `Aye there traveller, thanks for stopping by! Feel free to browse my dev journey thus far.
+const ABOUT = `Aye there traveller, thanks for stopping by! Feel free to browse my software development journey thus far.
 After graduating from the University of Guelph with a Computer Science Degree, I completed two short contract opportunities.
 I am now honing my mobile development skills in Flutter, learning ReactJS, & learning game development in Unity.`;
 
 const HOBBIES = [
+  "Software development & game development",
   "Writing and recording 5 piece band music - I typically record piano and guitar using Logic Pro X",
   "Travelling the world with friends - This year I visted Thailand, Italy, Croatia & Montenegro",
   "Going on hiking trips and outdoor rock climbing trips",
-  "Training both in the gym and running",
+  "Training in the gym and running",
   "Snowboarding through the winter",
-  "Playing competative PC games, & binge watching new tv shows",
+  "Playing competitive PC games, & binge watching new tv shows",
 ];
 
 const SKILL_LANGUAGES = [
   {
     name: "Java",
-    level: 90,
+    level: 85,
   },
   {
     name: "Python",
-    level: 90,
+    level: 85,
   },
   {
     name: "C",
-    level: 90,
+    level: 85,
   },
   {
     name: "Dart",
@@ -31,46 +32,46 @@ const SKILL_LANGUAGES = [
   },
   {
     name: "C#",
-    level: 80,
+    level: 75,
   },
   {
     name: "Javascript/Typescript",
-    level: 70,
+    level: 75,
   },
   {
     name: "HTML / CSS",
-    level: 70,
+    level: 75,
   },
   {
     name: "Swift/Kotlin",
-    level: 30,
+    level: 45,
   },
 ];
 
 const SKILL_FRAMEWORKS = [
   {
     name: "Flutter",
-    level: 90,
+    level: 85,
+  },
+  {
+    name: "React.JS / Node.js",
+    level: 85,
   },
   {
     name: "AWS",
-    level: 90,
+    level: 80,
   },
   {
     name: "Azure/GCP",
     level: 80,
   },
   {
-    name: "MySQL",
-    level: 70,
-  },
-  {
-    name: "React.JS / Node.js",
-    level: 70,
-  },
-  {
     name: "React Native",
-    level: 70,
+    level: 75,
+  },
+  {
+    name: "MySQL",
+    level: 75,
   },
   {
     name: "Angular.Js",
@@ -85,7 +86,7 @@ const EDUCATION = {
   location: "Guelph, Ontario",
   image: require("../assets/jobicons/uofg.png"),
   bullets: [
-    "Notable Courses: Discrete Mathematics, Data Structures, Algorithms, Object Oriented Programming, Operating Systems, System Design &Integration, Cloud Computing, Mobile Development",
+    "Notable Courses: Discrete Mathematics, Data Structures, Algorithms, Object Oriented Programming, Operating Systems, Legacy Systems, Computer Networks, Software System Development, Software Engineering, Cloud Computing, Mobile Development, Compilers",
     "Deans list 6/8 semesters",
     "85% average - graduated with distinction",
   ],
@@ -113,7 +114,7 @@ const WORK = [
     image: require("../assets/jobicons/moncton.jpeg"),
     bullets: [
       "Architected a data cleaning pipeline for an ergonomic research study",
-      "Developed python scripts to clean bad motion capture data from CSV files",
+      "Developed python scripts to clean bad data from a motion capture data set",
       "Developed python scripts to calculate an ergonomic rating for arms, neck, and trunk, using angle data over time",
     ],
   },
@@ -228,7 +229,7 @@ const GAMES = [
     gamefile: require("../assets/games/pokemon/PokemonGame.zip"),
     download: "PokemonGame.zip",
     description:
-      "A 2004 pokemon game inspired by Fire red/Leaf green. Includes a simple story progression, and battling system",
+      "A Pokemon game inspired by Fire red/Leaf green generation. Download available for MacOS users.",
     urls: [
       require("../assets/games/pokemon/gameplay0.png"),
       require("../assets/games/pokemon/gameplay1.png"),
@@ -245,7 +246,7 @@ const GAMES = [
     gamefile: require("../assets/games/pvz/PlantsVsZombiesGame.zip"),
     download: "PlantsVsZombiesGame.zip",
     description:
-      "An infintie round based Plants vs Zombies remake of the origional mobile game",
+      "A remake of the Plants Vs Zombies mobile game. Download available for MacOS users.",
     urls: [
       require("../assets/games/pvz/gameplay0.png"),
       require("../assets/games/pvz/gameplay1.png"),
@@ -261,7 +262,8 @@ const GAMES = [
     github: "https://github.com/BraydenKlemens",
     gamefile: require("../assets/games/flappybird/FlappyBirdGame.zip"),
     download: "FlappyBirdGame.zip",
-    description: "A remake of Connect 4 board game",
+    description:
+      "A remake of the infamous mobile game Flappy Bird. Download available for MacOS users.",
     urls: [
       require("../assets/games/flappybird/gameplay0.png"),
       require("../assets/games/flappybird/gameplay1.png"),
@@ -274,7 +276,8 @@ const GAMES = [
     github: "https://github.com/BraydenKlemens",
     gamefile: require("../assets/games/connect4/ConnectFourGame.zip"),
     download: "ConnectFourGame.zip",
-    description: "A remake of Connect 4 board game",
+    description:
+      "A remake of the Connect 4 board game. Download available for MacOS users.",
     urls: [
       require("../assets/games/connect4/gameplay0.png"),
       require("../assets/games/connect4/gameplay1.png"),

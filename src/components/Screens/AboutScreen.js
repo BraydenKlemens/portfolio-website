@@ -31,11 +31,7 @@ const AboutScreen = () => {
         >
           DOWNLOAD
         </a>
-        <img
-          src={resumepic}
-          className={style.imageContainer}
-          alt="Resume Picture"
-        />
+        <img src={resumepic} className={style.imageContainer} alt="Resume" />
       </div>
     </div>
   );
