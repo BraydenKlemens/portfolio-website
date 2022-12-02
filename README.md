@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Brayden Klemens Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio website, hosted here on Github.
 
 ## Available Scripts
 
