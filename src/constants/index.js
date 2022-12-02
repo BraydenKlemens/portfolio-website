@@ -229,7 +229,7 @@ const GAMES = [
     gamefile: require("../assets/games/pokemon/PokemonGame.zip"),
     download: "PokemonGame.zip",
     description:
-      "A Pokemon game inspired by Fire red/Leaf green generation. Download available for MacOS users.",
+      "A Pokemon game inspired by Fire Red/Leaf Green generation. Download available for MacOS users.",
     urls: [
       require("../assets/games/pokemon/gameplay0.png"),
       require("../assets/games/pokemon/gameplay1.png"),
