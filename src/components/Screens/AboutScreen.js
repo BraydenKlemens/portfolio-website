@@ -26,7 +26,7 @@ const AboutScreen = () => {
       <div className={style.contentsCenter}>
         <a
           href={resumepdf}
-          download="bklemens_resume.pdf"
+          download="BraydenKlemensResume.pdf"
           className={btnStyle.btn}
         >
           DOWNLOAD
