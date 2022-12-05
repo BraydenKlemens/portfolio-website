@@ -1,10 +1,12 @@
 import { constants } from "../../constants";
 import JobCard from "../UI/JobCard";
+import WebLink from "../UI/WebLink";
 import style from "./Screen.module.css";
 
 const CareerScreen = () => {
   const jobs = constants.WORK;
   const education = constants.EDUCATION;
+  const links = constants.LINKS;
 
   return (
     <div className={style.careerScreenWrapper}>
@@ -25,15 +27,16 @@ const CareerScreen = () => {
         </div>
       ))}
 
-      {/* Wordpress website link */}
-      <a
-        style={{ color: "#58A6FF", fontSize: 20, fontWeight: "bold" }}
-        href="https://bklemenscoop.wordpress.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Click here to learn more about my Co-op experiences
-      </a>
+      {/* Links Section */}
+      <h2 className={style.contentsCenter}>Extra Content</h2>
+      <hr />
+      <ul>
+        {links.map((link, i) => (
+          <li>
+            <WebLink title={link.title} link={link.link} />
+          </li>
+        ))}
+      </ul>
       <hr />
     </div>
   );

@@ -3,12 +3,12 @@ import profilepic from "../../assets/profilepic.png";
 import { constants } from "../../constants";
 import Contact from "./Contact";
 
-const Profile = ({ name }) => {
+const Profile = () => {
   return (
     <>
       {/* header profile pic, name and contact */}
       <div className={style.profileWrapper}>
-        <h1 className={style.name}>{name}</h1>
+        <h1 className={style.title}>Brayden Klemens</h1>
         <img
           src={profilepic}
           className={style.imageContainer}

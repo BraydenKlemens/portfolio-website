@@ -18,16 +18,39 @@
     padding: 3px;
 }
 
-.name {
-    font-family: 'Press Start 2P', cursive;
-    transform: scale(0.8,1.5);
-}
-
 .info{
     font-size: 16px;
     text-align: center;
     font-weight: bold;
     padding: 20px;
     font-family: monospace;
+}
+
+.title {
+    color: #282c34;
+    font-family: 'Press Start 2P', cursive;
+    transform: scale(0.8,1.5);
+}
+  
+.title::before {
+    content: 'Brayden Klemens';
+    color: #fff;
+    width: 100%;
+    white-space: nowrap;
+    position:absolute;
+    overflow: hidden;
+    /* border-right: 3px solid #fff; */
+    animation: animate 4s ease-out;
+}
+
+@keyframes animate {
+0%, 10% ,100%
+{
+    width: 0;
+}
+70%, 90%, 100%
+{
+    width: 100%;
+}
 }
 

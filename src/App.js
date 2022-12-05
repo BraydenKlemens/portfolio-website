@@ -4,7 +4,7 @@ import ContentSelector from "./components/Content/ContentSelector";
 function App() {
   return (
     <>
-      <Profile name={"Brayden Klemens"} />
+      <Profile />
       <ContentSelector />
     </>
   );

@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
           <a
             className={style.icon}
             id={style.github}
-            href="https://github.com/BraydenKlemens"
+            href={project.github}
             target="_blank"
             rel="noreferrer"
           >

@@ -140,7 +140,6 @@ const WORK = [
       "Architected a machine learning pipeline, which uses thermal imaging data to detect COVID-19",
       "Developed a facial detection script using a human face data set and a 64 nodal point mesh",
       "Used adaptive thresholding to calculate average and mean pixel values in regions of thermal faces to determine body temperature and breath rate",
-      "Check out the official article: https://guides.uoguelph.ca/2021/09/researchers-aim-to-improve-covid-19-screening-with-thermal-camera-based-imaging-tool/",
     ],
   },
   {
@@ -173,7 +172,7 @@ const PROJECTS = [
   {
     title: "Portfolio Website",
     stack: "React.Js, Node.js",
-    github: "https://github.com/BraydenKlemens",
+    github: "https://github.com/BraydenKlemens/portfolio-website",
     description:
       "Portfolio website that is constantly growing and being updated",
     urls: [require("../assets/projects/portfolio/website_home.png")],
@@ -181,7 +180,7 @@ const PROJECTS = [
   {
     title: "Survey Hub",
     stack: "Flutter, Dart, Cloud Firestore, Firebase, Provider",
-    github: "https://github.com/BraydenKlemens",
+    github: "https://github.com/BraydenKlemens/UofGSurveyApp",
     description:
       "A centralized location for students to complete surveys they have signed up for at UofG",
     urls: [
@@ -197,7 +196,8 @@ const PROJECTS = [
   {
     title: "Attraction App",
     stack: "Flutter, Dart",
-    github: "https://github.com/BraydenKlemens",
+    github:
+      "https://github.com/BraydenKlemens/FlutterApps/tree/main/attractions_app",
     description:
       "A simple Flutter app that shows details about attractions around guelph",
     urls: [
@@ -211,7 +211,8 @@ const PROJECTS = [
   {
     title: "Recipe App",
     stack: "Flutter, Dart",
-    github: "https://github.com/BraydenKlemens",
+    github:
+      "https://github.com/BraydenKlemens/FlutterApps/tree/main/recipe_app",
     description: "A simple Flutter app for discovering new recipes",
     urls: [
       require("../assets/projects/recipe_app/home.png"),
@@ -225,7 +226,7 @@ const GAMES = [
   {
     title: "Pokemon Leaf Green",
     stack: "Java, LibGDX",
-    github: "https://github.com/BraydenKlemens",
+    github: "https://github.com/BraydenKlemens/PokemonRemake",
     gamefile: require("../assets/games/pokemon/PokemonGame.zip"),
     download: "PokemonGame.zip",
     description:
@@ -242,7 +243,7 @@ const GAMES = [
   {
     title: "Plants Vs Zombies",
     stack: "Java, LibGDX",
-    github: "https://github.com/BraydenKlemens",
+    github: "https://github.com/BraydenKlemens/PlantsVsZombiesRemake",
     gamefile: require("../assets/games/pvz/PlantsVsZombiesGame.zip"),
     download: "PlantsVsZombiesGame.zip",
     description:
@@ -259,7 +260,8 @@ const GAMES = [
   {
     title: "Flappy Bird",
     stack: "Java, LibGDX",
-    github: "https://github.com/BraydenKlemens",
+    github:
+      "https://github.com/BraydenKlemens/MiniGames/tree/main/FlappyBirdGame",
     gamefile: require("../assets/games/flappybird/FlappyBirdGame.zip"),
     download: "FlappyBirdGame.zip",
     description:
@@ -273,7 +275,8 @@ const GAMES = [
   {
     title: "Connect 4",
     stack: "Java, LibGDX",
-    github: "https://github.com/BraydenKlemens",
+    github:
+      "https://github.com/BraydenKlemens/MiniGames/tree/main/ConnectFourGame",
     gamefile: require("../assets/games/connect4/ConnectFourGame.zip"),
     download: "ConnectFourGame.zip",
     description:
@@ -282,6 +285,17 @@ const GAMES = [
       require("../assets/games/connect4/gameplay0.png"),
       require("../assets/games/connect4/gameplay1.png"),
     ],
+  },
+];
+
+const LINKS = [
+  {
+    title: "Learn more about my Co-op experiences on my blog site",
+    link: "https://bklemenscoop.wordpress.com",
+  },
+  {
+    title: "Learn more about the thermal camera research project",
+    link: "https://guides.uoguelph.ca/2021/09/researchers-aim-to-improve-covid-19-screening-with-thermal-camera-based-imaging-tool/",
   },
 ];
 
@@ -294,4 +308,5 @@ export const constants = {
   PROJECTS,
   GAMES,
   HOBBIES,
+  LINKS,
 };

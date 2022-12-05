@@ -12,5 +12,6 @@
 @media (max-width: 600px) {
     .tabWrapper {
         flex-wrap: wrap;
+        position: static;
     }
 }
