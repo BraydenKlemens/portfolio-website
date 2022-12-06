@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.56348b3d.css",
+    "main.css": "/portfolio-website/static/css/main.c27ae685.css",
     "main.js": "/portfolio-website/static/js/main.0a314107.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/PokemonGame.zip": "/portfolio-website/static/media/PokemonGame.a93020b3e7191dfe8291.zip",
@@ -31,12 +31,12 @@
     "static/media/register.png": "/portfolio-website/static/media/register.4da2947a9a769c82e3fd.png",
     "static/media/BraydenKlemensResume.pdf": "/portfolio-website/static/media/BraydenKlemensResume.f1d9d3c4328186f424fb.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.56348b3d.css.map": "/portfolio-website/static/css/main.56348b3d.css.map",
+    "main.c27ae685.css.map": "/portfolio-website/static/css/main.c27ae685.css.map",
     "main.0a314107.js.map": "/portfolio-website/static/js/main.0a314107.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56348b3d.css",
+    "static/css/main.c27ae685.css",
     "static/js/main.0a314107.js"
   ]
 }
