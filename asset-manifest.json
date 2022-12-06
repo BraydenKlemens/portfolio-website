@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.ced24e95.css",
-    "main.js": "/portfolio-website/static/js/main.44cf1e29.js",
+    "main.css": "/portfolio-website/static/css/main.56348b3d.css",
+    "main.js": "/portfolio-website/static/js/main.0a314107.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/PokemonGame.zip": "/portfolio-website/static/media/PokemonGame.a93020b3e7191dfe8291.zip",
     "static/media/PlantsVsZombiesGame.zip": "/portfolio-website/static/media/PlantsVsZombiesGame.25564d3f72c9fe9fed88.zip",
@@ -9,7 +9,7 @@
     "static/media/FlappyBirdGame.zip": "/portfolio-website/static/media/FlappyBirdGame.cc24b4cc634ea52b3855.zip",
     "static/media/home.png": "/portfolio-website/static/media/home.97ef3f1109841bedda61.png",
     "static/media/attraction.png": "/portfolio-website/static/media/attraction.62bda4ad1734a1d67099.png",
-    "static/media/resumepic.png": "/portfolio-website/static/media/resumepic.f3316472694b989a11d3.png",
+    "static/media/resumepic.png": "/portfolio-website/static/media/resumepic.42f9d21b699bbe70c9ef.png",
     "static/media/gameplay3.png": "/portfolio-website/static/media/gameplay3.416ab81c78aa5046cc9d.png",
     "static/media/nav.png": "/portfolio-website/static/media/nav.93a923d956fd0428144d.png",
     "static/media/gameplay1.png": "/portfolio-website/static/media/gameplay1.445c565660c7a8aec7f7.png",
@@ -29,14 +29,14 @@
     "static/media/surveydone.png": "/portfolio-website/static/media/surveydone.81e1f1a032ab3c740b69.png",
     "static/media/survey.png": "/portfolio-website/static/media/survey.215b38e8e9f8bf28fbe7.png",
     "static/media/register.png": "/portfolio-website/static/media/register.4da2947a9a769c82e3fd.png",
-    "static/media/BraydenKlemensResume.pdf": "/portfolio-website/static/media/BraydenKlemensResume.7ea80c80941feb3c7d77.pdf",
+    "static/media/BraydenKlemensResume.pdf": "/portfolio-website/static/media/BraydenKlemensResume.f1d9d3c4328186f424fb.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.ced24e95.css.map": "/portfolio-website/static/css/main.ced24e95.css.map",
-    "main.44cf1e29.js.map": "/portfolio-website/static/js/main.44cf1e29.js.map",
+    "main.56348b3d.css.map": "/portfolio-website/static/css/main.56348b3d.css.map",
+    "main.0a314107.js.map": "/portfolio-website/static/js/main.0a314107.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ced24e95.css",
-    "static/js/main.44cf1e29.js"
+    "static/css/main.56348b3d.css",
+    "static/js/main.0a314107.js"
   ]
 }
