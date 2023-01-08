@@ -1,6 +1,6 @@
 # Brayden Klemens Portfolio Website
 
-Personal portfolio website, hosted here on Github. https://braydenklemens.github.io/portfolio-website/
+Personal portfolio website, hosted using Github Pages. https://braydenklemens.github.io/portfolio-website/
 
 ## Available Scripts
 
