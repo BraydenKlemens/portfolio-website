@@ -4,9 +4,6 @@
 
 Personal portfolio website, hosted using Github Pages. https://braydenklemens.github.io/portfolio-website/
 
-## Tech Stack
-- React JS
-
 ## Available Scripts
 
 In the project directory, you can run:
