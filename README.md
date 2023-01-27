@@ -2,7 +2,7 @@
 
 ## About
 
-Personal portfolio website, hosted using Github Pages. https://braydenklemens.github.io/portfolio-website/
+Personal portfolio website, hosted using Github Pages. https://braydenklemens.com
 
 ## Available Scripts
 
